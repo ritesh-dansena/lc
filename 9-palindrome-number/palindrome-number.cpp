@@ -10,9 +10,9 @@ public:
             int digit = x%10;
             reverse  = reverse*10 +digit;
             x/=10;}
-            if( original == reverse){
-                return true;
-            }
-            return false;
+        if( original == reverse){
+            return true;
+        }
+        return false;
     }
 };  
